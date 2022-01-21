@@ -12,3 +12,28 @@ h5,
 h6 {
   font-family: Georgia, serif;
 }
+
+blockquote {
+  border-left: 3px solid rgb(221, 221, 221);
+  font-style: italic;
+  line-height: 2;
+}
+
+blockquote p {
+  margin-left: 25px;
+}
+
+blockquote p:last-child {
+  text-align: right;
+}
+
+table,
+tr,
+td,
+thead {
+  border: 1px rgb(221, 221, 221) solid;
+  text-align: left;
+}
+table {
+  width: 100%;
+}
