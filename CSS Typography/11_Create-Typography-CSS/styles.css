@@ -27,13 +27,25 @@ blockquote p:last-child {
   text-align: right;
 }
 
-table,
-tr,
-td,
-thead {
-  border: 1px rgb(221, 221, 221) solid;
-  text-align: left;
-}
 table {
   width: 100%;
+}
+
+article th {
+  background-color: #cccccc;
+  width: 144px;
+  height: 32px;
+  border: 1px solid #cccccc;
+  padding-left: 5px;
+}
+
+article td {
+  width: 144px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  padding-left: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f1f1f1;
 }
