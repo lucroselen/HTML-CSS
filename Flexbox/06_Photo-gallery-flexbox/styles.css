@@ -2,6 +2,10 @@ li {
   list-style-type: none;
   border: 10px solid black;
   padding: 2rem;
+  margin: 15px 0px;
+  box-shadow: 1px 1px 13px -1px black;
+  display: flex;
+  align-items: center;
 }
 body,
 ul,
@@ -13,5 +17,14 @@ ul {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
-  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  margin: 70px 165px;
 }
