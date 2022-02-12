@@ -1,0 +1,31 @@
+div {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 730px;
+}
+
+.card {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#first {
+  background-color: darkblue;
+}
+
+#second {
+  background-color: darkred;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
