@@ -1,0 +1,17 @@
+li {
+  list-style-type: none;
+  border: 10px solid black;
+  padding: 2rem;
+}
+body,
+ul,
+li {
+  display: flex;
+}
+
+ul {
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
