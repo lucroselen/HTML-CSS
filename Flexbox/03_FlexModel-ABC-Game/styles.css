@@ -3,23 +3,20 @@ html {
   font-size: 20px;
 }
 
-div {
-  display: flex;
-  align-items: center;
+.container {
   max-width: 15vw;
   height: 35rem;
-  gap: 15px;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 span {
   border: 1px solid black;
   order: 20;
-  height: 45px;
-  width: 100px;
   text-align: center;
-  padding-top: 22.5px;
+  padding: 1rem;
 }
 
 div > span:nth-child(11) {
