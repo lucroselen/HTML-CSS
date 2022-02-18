@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 238, 238);
+  margin: 40px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  line-height: 1.2;
+}
+
+header h1 {
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  margin: 30px auto;
+  width: 80%;
+}
+
+main {
+  padding: auto;
+  margin: auto;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page main {
+  flex-basis: 80%;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #999ea8;
+  border-left: 3px solid lightgray;
+  padding-left: 25px;
+  margin: 20px 0px 20px 20px;
+  width: 40%;
+  float: right;
+  line-height: 1.5;
+}
+
+blockquote p {
+  text-align: right;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+  box-shadow: 1px 1px 13px -1px black;
+}
+
+.right-image {
+  float: right;
+  margin: 10px 15px;
+  padding: 8px;
+}
+
+.left-image {
+  float: left;
+  margin: 10px 15px 10px 2px;
+  padding: 8px;
+}
+
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 800px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  p {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  p {
+    font-size: 23px;
+  }
+}
