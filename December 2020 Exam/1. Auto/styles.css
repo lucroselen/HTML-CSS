@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 3rem;
+  width: 80vw;
+  margin: 8rem auto;
+  padding: 4.5rem 8.2rem;
+  border: 2px black solid;
+}
+
+.car__text h4 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 24.5px;
+}
+
+.car__text p {
+  color: gray;
+  line-height: 1.5;
+  padding-bottom: 0.5rem;
+}
+
+.car__text img {
+  height: 55px;
+  width: 55px;
+  float: left;
+  margin-right: 1rem;
+}
+
+.car__text h6 {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: bold;
+  margin-top: 1.5rem;
+  padding-bottom: 0.2rem;
+}
