@@ -105,3 +105,21 @@ nav ul li {
   display: table-cell;
   padding: 3.5rem 15rem;
 }
+
+footer {
+  display: flex;
+  height: 14.5vh;
+  background-color: var(--color-green);
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  letter-spacing: 1px;
+  color: var(--color-greentext);
+}
+
+.lightgreen {
+  color: var(--color-lightgreentext);
+}
