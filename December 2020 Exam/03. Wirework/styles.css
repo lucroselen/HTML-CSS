@@ -1,10 +1,107 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
 :root {
-  --color-orange: #e24e2a;
+  --color-orange: #dd4e2a;
   --color-gray: #383838;
   --color-white: #ffffff;
   --color-green: #359771;
   --color-gray-text: #b2b2b2;
   --color-lightgray: #ececec;
-  --color-footergreentext: #41b491;
-  --color-footerlightgreentext: #83efcf;
+  --color-greentext: #41b491;
+  --color-lightgreentext: #83efcf;
+}
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-white);
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0.5rem;
+  height: 10.5vh;
+}
+
+nav {
+  margin: auto 0;
+}
+
+.intro__image {
+  width: 100vw;
+  height: 69.5vh;
+  object-fit: cover;
+  margin-bottom: -3px;
+}
+
+.by {
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.templated {
+  color: var(--color-gray);
+  letter-spacing: 1px;
+}
+
+h1 {
+  border-right: 1px solid gray;
+  margin: auto 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: bold;
+  color: var(--color-gray);
+  line-height: 1.2;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__text {
+  margin: auto 0;
+  padding-top: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 0.1rem;
+  margin: auto 10rem auto 0;
+}
+
+nav ul li {
+  font-weight: bold;
+  color: var(--color-gray);
+  border: 1px solid var(--color-lightgray);
+  padding: 1.7rem 1.9rem;
+  background-color: var(--color-lightgray);
+  letter-spacing: 1px;
+}
+
+.homepage {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+}
+
+.intro__text {
+  background-color: var(--color-orange);
+  line-height: 2;
+  height: 20vh;
+  width: 100vw;
+  display: table;
+}
+
+.intro__text u,
+.intro__text strong,
+.intro__text p {
+  color: var(--color-lightgray);
+}
+
+.intro__text p {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 3.5rem 15rem;
 }
