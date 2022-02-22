@@ -219,3 +219,8 @@ i {
   align-items: center;
   gap: 0.8rem;
 }
+
+nav li:hover,
+button:hover {
+  cursor: pointer;
+}
