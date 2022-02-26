@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --color-linkedin: #0a66c2;
+}
+html {
+  font-family: Roboto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  height: 14vh;
+  width: 90vw;
+  justify-content: space-between;
+}
+header img {
+  margin-left: 6rem;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 67.8vh;
+}
+form,
+h1,
+.second {
+  margin-left: 7rem;
+}
+
+h1 {
+  font-size: 42px;
+  color: var(--color-linkedin);
+  width: 29rem;
+  margin-top: 1rem;
+  line-height: 1.25;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+}
+
+.btn-primary {
+  border: 1px solid var(--color-linkedin);
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.btn-primary a {
+  color: var(--color-linkedin);
+}
+
+input {
+  display: block;
+  margin-block: 0.75rem;
+  padding: 0.75rem 8.8rem 0.75rem 0.5rem;
+  border: 0.5px solid gray;
+  border-radius: 1.5px;
+}
+
+form {
+  position: relative;
+  width: 25vw;
+  height: 30vh;
+  margin-top: 0.75rem;
+}
+
+.show {
+  position: absolute;
+  top: 67px;
+  left: 260px;
+  font-weight: bold;
+  color: grey;
+  font-size: 14px;
+}
+
+.show:hover,
+.btn:hover {
+  cursor: pointer;
+}
+
+.forgot {
+  color: rgb(110, 110, 110);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+form .btn {
+  padding: 0.8rem 131.8px;
+  margin-block: 2rem;
+  color: white;
+  background-color: var(--color-linkedin);
+  font-size: 16px;
+}
+
+.container .header-bg {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  width: 38.9rem;
+  height: 38.9rem;
+}
+
+.second-wrapper {
+  height: 50vh;
+  width: 100vw;
+  background-color: rgba(236, 236, 236, 0.596);
+}
+.second {
+  height: 50vh;
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20rem;
+}
+
+.second h2 {
+  font-size: 2.2rem;
+  width: 16rem;
+}
+
+.tags ul {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+.tags span {
+  display: block;
+  margin-bottom: 2rem;
+}
