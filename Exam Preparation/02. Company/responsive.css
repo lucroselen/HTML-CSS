@@ -1,0 +1,99 @@
+@media all and (max-width: 600px) {
+  .main-nav {
+    display: none;
+  }
+
+  .main-head {
+    padding: 6px 34px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper h1,
+  .hero-head .goal {
+    float: unset;
+    width: 100%;
+  }
+
+  .wrapper h1 {
+    text-align: center;
+    font-size: 38px;
+    margin: 0 0 2rem 0;
+    line-height: 78px;
+    padding-top: 10rem;
+  }
+
+  .hero-head .goal {
+    text-align: center;
+    max-width: 82%;
+    margin: 0 auto;
+    line-height: 42px;
+  }
+
+  .hero-head {
+    background-image: none;
+    background-color: black;
+    padding-bottom: 4rem;
+  }
+
+  .hero-head:after {
+    display: none;
+  }
+
+  img {
+    max-width: unset;
+    width: 192px;
+    height: 56px;
+  }
+
+  .content-wrap {
+    flex-wrap: wrap;
+  }
+
+  .content-wrap.two-col .col {
+    flex-basis: unset;
+    margin: 0 0.5rem;
+  }
+
+  .sponsors-list img {
+    max-width: 100%;
+    width: unset;
+    height: unset;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  h3,
+  .module-text {
+    text-align: center;
+  }
+
+  .content {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+  }
+
+  .sponsors .module-text {
+    margin-inline: 0.5rem;
+  }
+
+  .main-foot {
+    margin-top: -6rem;
+    text-align: center;
+  }
+
+  .main-foot .bottom .copyright {
+    float: unset;
+    text-align: center;
+  }
+
+  .main-foot .wrapper {
+    flex-direction: column;
+  }
+  .main-foot a {
+    padding: 0.75rem 0;
+  }
+}
