@@ -1,7 +1,224 @@
 :root {
+  --color-blue: hsl(195deg 100% 36%);
+  --color-gray: hsl(0deg 0% 27%);
+  --color-beige: hsl(200deg 10% 94%);
+  --color-footer: hsl(207deg 11% 17%);
+  --color-subscribe: hsl(204deg 8% 24%);
+  --color-subscribe-input: hsl(204deg 6% 35%);
+  --color-links: hsl(204deg 10% 20%);
 }
 
 html {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+header,
+header ul {
+  display: flex;
+}
+header {
+  margin: 2rem 10rem;
+  justify-content: space-between;
+}
+
+header ul {
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header h1 {
+  color: var(--color-blue);
+}
+
+.image-container {
+  position: relative;
+  width: 100vw;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.opacity {
+  position: absolute;
+  top: 271px;
+  left: 223px;
+  width: 44.4rem;
+  height: 18rem;
+  background-color: black;
+  opacity: 60%;
+}
+
+.promote {
+  position: absolute;
+  color: #fff;
+  top: 296px;
+  left: 251px;
+  width: 44.4rem;
+  font-size: 40px;
+}
+
+.promote h1 {
+  color: #fff;
+  font-size: 3.8rem;
+  line-height: 1.2;
+}
+
+.promote button {
+  color: #fff;
+  background-color: var(--color-blue);
+  border-radius: 30px;
+  border: unset;
+  padding: 0.5rem 2rem;
+  font-size: 2.2rem;
+  margin-top: 2rem;
+}
+
+.welcome button {
+  color: #fff;
+  background-color: var(--color-gray);
+  border-radius: 30px;
+  border: unset;
+  padding: 1rem 2rem;
+  font-size: 22px;
+}
+
+.welcome {
+  text-align: center;
+  height: 25vh;
+  background-color: #fff;
+  margin: 6rem 10rem;
+}
+
+.welcome h2,
+.services h2,
+p {
+  margin: 3rem;
+  padding-inline: 1.5rem;
+}
+.welcome h2,
+.services h2 {
+  font-size: 3rem;
+}
+.welcome p {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.services {
+  height: 70vh;
+  background-color: var(--color-beige);
+}
+
+.services h2 {
+  text-align: center;
+  padding-top: 3rem;
+}
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  height: 54vh;
+  background-color: #fff;
+  border-radius: 4.5px;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 4.5px;
+}
+
+.services button,
+.subscribe button {
+  color: #fff;
+  background-color: var(--color-gray);
+  border-radius: 4.5px;
+  border: unset;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.services h3 {
+  margin: 2rem 0 1rem 0;
+  font-size: 24px;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+.subscribe button {
+  background-color: var(--color-blue);
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: var(--color-subscribe);
+}
+
+.subscribe h2,
+.subscribe p {
+  color: #fff;
+  text-align: center;
+}
+
+.subscribe input {
+  background-color: var(--color-subscribe-input);
+  padding: 0.7rem 19.5rem 0.7rem 0.5rem;
+  border: unset;
+  margin-inline: 1rem;
+  border-radius: 4.5px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-links);
+  height: 30vh;
+  gap: 10rem;
+}
+
+.last h6,
+.last li {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-footer);
+  height: 5vh;
+}
+
+footer div {
+  color: #fff;
+}
+footer span {
+  color: var(--color-blue);
 }

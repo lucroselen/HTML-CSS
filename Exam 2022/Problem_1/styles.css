@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+
 html {
   box-sizing: border-box;
   overflow: hidden;
+  font-family: "PT Serif", serif;
 }
 
 .parent {
@@ -10,5 +13,58 @@ html {
 }
 
 .container {
+  display: flex;
+  width: 59rem;
+  height: 27rem;
   margin: auto;
+  -webkit-box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.72);
+  background-image: url(./image/image1.png);
+  background-repeat: repeat-y;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+li span {
+  color: green;
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1.5px green dotted;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 25px;
+}
+
+img {
+  padding: 1rem;
+}
+.text {
+  padding: 1.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+table {
+  border: 1px green solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.italic {
+  display: flex;
+  font-style: italic;
+  justify-content: space-between;
+  margin-top: -2rem;
+}
+
+.description {
+  padding-block: 1.5rem;
 }
